@@ -1,0 +1,26 @@
+{
+  "name": "hutt-plugin-babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "babel-core": "^6.26.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.0",
+    "mocha": "^3.5.0"
+  },
+  "dependencies": {
+    "arrayp": "^1.1.0",
+    "pify": "^3.0.0",
+    "write": "^1.0.3"
+  }
+}
