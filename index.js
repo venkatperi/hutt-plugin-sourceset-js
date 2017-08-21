@@ -19,6 +19,12 @@
 // OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
 // USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-module.exports = require( './lib/BabelTaskPlugin' );
+const { sourceSetPluginClass } = require( 'hutt' );
+
+module.exports = sourceSetPluginClass( {
+  name: 'js',
+  include: ['{src,lib}/**/*.js'],
+} );
+
 
 
